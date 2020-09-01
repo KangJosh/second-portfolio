@@ -7,6 +7,10 @@ header {
 	background-color: #80857a;
 }
 
+main {
+  background-color: #e5e5e5;
+}
+
 .wrapper {
 	width: 580px;
 	margin: auto;	
