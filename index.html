@@ -1,75 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Josh's Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>second-portfolio</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
 <body>
 
   <header>
-    <div class="wrapper">
-      <h1>Josh Kang</h1>
-      <h2>Software Developer</h2>
-    </div>
-  </header>
+		<div class="logo">Josh Kang</div>
+    <nav>
+			<ul id="menu">
+				<li><a href="#aboutjosh">About Josh</a></li>
+				<li><a href="#aboutmyself">About Myself</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#projects">Projects</a></li>
+			</ul>
+		</nav>
+	</header>
 
-  <main>
-    <div class="wrapper">
-
-      <img src="" alt="">
-
-            <div class="gap-sm"></div>
-
-            <h2>About Josh</h2>
-            <ul>
-                <li>My name is Josh Kang.</li>
-                <li>I live in Buena Park, CA.</li>
-                <li>Currently working in logistics and studying to become a software developer.</li>
-            </ul>
-
-<div class="gap-sm"></div>
-<hr>
-<div class="gap-sm"></div>
-
-            <h2>About Myself</h2>
-            <ul>
-                <li>My passion for software development is growing and I hope that it'll continue to grow with new challenges and accomplishments.</li>
-                <li>I would love to work with a team of great programmers so that I can learn and grow my skills to be more effective and efficient.</li>
-                <li>Outside of coding, I enjoy watching and participating in most sports and outdoor activities.</li>
-                <li>I would like to provide all services that are within my capacity to the clients. I want to experience many different types of tasks and gain as much expertise in each area as I can.</li>
-            </ul>
-
-<div class="gap-sm"></div>
-  <hr>
-<div class="gap-sm"></div>
-
-  <section>
-    <h3>Contact</h3> <!-- access to my github -->
-    <ul>
-      <li>
-        <a href="https://github.com/kangjosh">Github</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/josh-kang-7338271b2/">LinkedIn</a>
-      </li>
-    </ul>
+<main>
+	<section>
+				<h2>About Josh</h2>
+          <ul>
+            <li>My name is Josh Kang.</li>
+            <li>I live in Buena Park, CA.</li>
+            <li>Currently working in logistics and studying to become a software developer.</li>
+          </ul>
   </section>
 
-<div class="gap-sm"></div>
-  <hr>
-<div class="gap-sm"></div>
+<hr>
 
-  <h2>List of upcoming projects</h2>
-    <h3>Portfolio</h3>
-      <p>This portfolio will be the first website that I've built with the knoweledge gained from Thinkful.</p>
+	<section>
+    <h2>About Myself</h2>
+      <ul>
+        <li>My passion for software development is growing and I hope that it'll continue to grow with new challenges and accomplishments.</li>
+        <li>I would love to work with a team of great programmers so that I can learn and grow my skills to be more effective and efficient.</li>
+        <li>Outside of coding, I enjoy watching and participating in most sports and outdoor activities.</li>
+        <li>I would like to provide all services that are within my capacity to the clients. I want to experience many different types of tasks and gain as much expertise in each area as I can.</li>
+      </ul>
+	</section>
 
-<div class="gap-sm"></div>
+<hr>
 
-  </main>
+	<section>
+		<h2>Upcoming projects</h2>
+		<h3>Portfolio</h3>
+		<p>This will be the second portfolio that I've built with the knowledge gained from Thinkful.</p>
+			<div class="item">
+			<img src="placeholder.png" alt="second-portfolio-placeholder" class="rounded">	
+<hr>
+				<ul>
+					<li><a href="github.io">Live Link</a></li>
+      		<li><a href="github.com">Link to Code</a></li>
+				</ul>
+				
+				<p>List of tech used</p>
+				<ul>
+					<li>VS Code</li>
+					<li>Github</li>
+					<li>Repl</li>
+					<li>HTML and CSS</li>
+				</ul>
+	</section>
 
-<script src="script.js"></script>
-</body>
+<hr>
+
+  <section>
+			<h2>Contact</h2>
+			<div class="group">
+				<div class="item">
+				<form action="#" method="POST">
+          <label for="user-name">Name:</label>
+          <input id="user-name" type="text" name="name">
+
+          <label for="user-email">Email:</label>
+          <input id="user-email" type="text" name="email">
+
+          <label for="user-message">Message:</label>
+          <textarea id="user-message" name="message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+				</div>
+				<div class="item item-double">
+					<ul>
+						<li>
+							<a href="https://github.com/kangjosh">Github</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/josh-kang-7338271b2/">LinkedIn</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</section>
+</main>
 </html>
