@@ -1,6 +1,4 @@
 
-/* -------  General Styles ------- */
-
 body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
@@ -22,9 +20,7 @@ body {
     padding: 20px 0 0 0;
   }
   
-  
-  /* ---  Navigation --- */
-  
+    
   header nav {
     display: flex;
     flex-direction: row;
@@ -69,9 +65,7 @@ body {
     }
   }
   
-  /* ---  Primary Groups --- */
-  
-  main {
+   main {
     padding: 20px 0;
   }
   
@@ -80,8 +74,6 @@ body {
   }
 
   
-  /* ---  Typography --- */
-
   h2 {
     font-size: 26px;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -117,8 +109,6 @@ body {
   }
   
  
-  /* ---  (Desktop) Groups & Items --- */
-  
   @media all and (min-width: 800px) {
     section {
       padding: 0 10%;
@@ -129,12 +119,9 @@ body {
   }
   
   
-  
-  /* Contact Form Design */
-  
   form {
     padding-right: 8px;
-    /* Fixed small sizing issue on the right */
+
   }
   
   form label {
